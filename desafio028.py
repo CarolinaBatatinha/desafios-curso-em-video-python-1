@@ -8,4 +8,4 @@ numUsuario = int(input('Digite um número inteiro entre 0 e 5: '))
 if numUsuario == numComputador:
     print('Parabéns, você acertou o número sorteado.')
 else:
-    print('Você escolheu {0} e o computador escolheu {1}.'.format(numUsuario, numComputador))
+    print(f'Você escolheu {numUsuario} e o computador escolheu {numComputador}.')
