@@ -3,9 +3,9 @@
 vel = int(input('Informe a velocidade registrada em km/h: '))
 
 if vel > 80:
-    valorMulta = (vel - 80) * 7
+    valor_multa = (vel - 80) * 7
     print('A velocidade registrada foi de {0}km/h.')
-    print('Como o limite foi ultrapassado, você pagará uma multa de R$ {0:.2f}.'.format(valorMulta))
+    print('Como o limite foi ultrapassado, você pagará uma multa de R$ {0:.2f}.'.format(valor_multa))
 else:
     print('A velocidade registrada foi de {0}km/h.'.format(vel))
     print('Continue de olho nos limites das vias.')

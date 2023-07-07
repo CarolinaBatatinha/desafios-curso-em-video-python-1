@@ -4,7 +4,7 @@ km = float (input('Quantos km o cliente rodou com o veículo? '))
 dias = float (input('Por quantos dias o veículo foi alugado? '))
 
 diaria = 60
-kmRodado = 0.15 * km 
-total = (diaria * dias) + (kmRodado)
+km_rodado = 0.15 * km 
+total = (diaria * dias) + (km_rodado)
 
 print('O valor a pagar é de R${:.2f}.'.format(total))

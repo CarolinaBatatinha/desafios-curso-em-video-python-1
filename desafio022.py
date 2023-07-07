@@ -4,15 +4,15 @@
 # - quantas letras no total, sem considerar espaços;
 # - quantas letras tem o primeiro nome.
 
-nomeCompleto = input('Digite seu nome completo: ')
-letrasMaiusculas = nomeCompleto.upper()
-letrasMinusculas = nomeCompleto.lower()
-totalLetras = len(nomeCompleto) - nomeCompleto.count(' ') #subtrai os "espaços" do nome completo
-totalLetrasPrimeiroNome = nomeCompleto.find(' ') #porque o primeiro nome termina no primeiro espaço
-nomeSeparado = nomeCompleto.split()
+nome_completo = input('Digite seu nome completo: ')
+letras_maiusculas = nome_completo.upper()
+letras_minusculas = nome_completo.lower()
+total_letras = len(nome_completo) - nome_completo.count(' ') #subtrai os "espaços" do nome completo
+total_letras_primeiro_nome = nome_completo.find(' ') #porque o primeiro nome termina no primeiro espaço
+nome_separado = nome_completo.split()
 
 print(f'''
-- Nome completo com todas as letras maiusculas: {letrasMaiusculas}
-- Nome completo com todas as letras minusculas: {letrasMinusculas}
-- Total de letras, sem considerar espacamento: {totalLetras}
-- Total de letras do nome {nomeSeparado[0]}: {totalLetrasPrimeiroNome}''')
+- Nome completo com todas as letras maiusculas: {letras_maiusculas}
+- Nome completo com todas as letras minusculas: {letras_minusculas}
+- Total de letras, sem considerar espacamento: {total_letras}
+- Total de letras do nome {nome_separado[0]}: {total_letras_primeiro_nome}''')
