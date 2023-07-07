@@ -3,10 +3,10 @@
 distancia = float(input('Digite a distância da sua viagem em km: '))
 
 if distancia <= 200:
-    valorPassagem = distancia * .5
+    valor_passagem = distancia * .5
     print('Para uma viagem de {0}km, o valor da passagem é de R$ {1:.2f}.'.format(distancia, valorPassagem))
 else:
-    valorPassagem = distancia * .45
+    valor_passagem = distancia * .45
     print('Para uma viagem de {0}km, o valor da passagem é de R$ {1:.2f}.'.format(distancia, valorPassagem))
 
 #TAMBÉM SERIA POSSÍVEL SUBSTITUIR COMPLETAMENTE O "if-else" PELA CONDIÇÃO ABAIXO

@@ -2,10 +2,10 @@
 
 from random import randint
 
-numComputador = randint(0,5)
-numUsuario = int(input('Digite um número inteiro entre 0 e 5: '))
+num_computador = randint(0,5)
+num_usuario = int(input('Digite um número inteiro entre 0 e 5: '))
 
-if numUsuario == numComputador:
+if num_usuario == num_computador:
     print('Parabéns, você acertou o número sorteado.')
 else:
-    print(f'Você escolheu {numUsuario} e o computador escolheu {numComputador}.')
+    print(f'Você escolheu {num_usuario} e o computador escolheu {num_computador}.')
